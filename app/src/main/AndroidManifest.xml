@@ -16,16 +16,15 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity"> </activity>
 
-
-        <activity android:name=".TradutorIngActivity" android:label="INGLES"/>
+        <activity android:name=".TradutorIngActivity" android:label="INGLES">
             <intent-filter>
                 <action android:name="TRADUZIR" />
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="INGLES"/>
             </intent-filter>
-
+        </activity>
 
         <activity android:name=".TradutorFraActivity" android:label="FRANCES">
              <intent-filter>

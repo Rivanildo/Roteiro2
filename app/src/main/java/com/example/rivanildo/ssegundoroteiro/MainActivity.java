@@ -59,6 +59,11 @@ public class MainActivity extends AppCompatActivity {
                     focus = editText;
                     focus.requestFocus();
                 }
+                else{
+                    editText.setError("Cor invalida");
+                    focus = editText;
+                    focus.requestFocus();
+                }
             }
         }
     }
